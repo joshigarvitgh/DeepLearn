@@ -1,0 +1,14 @@
+rnn
+xavier initilizer for selective weight balancing
+cp ._vgg16_weights_th_dim_ordering_th_kernels.h5 ~/.keras/models
+sudo apt-get install nvidia-cuda-toolkit
+THEANO_FLAGS=device=gpu,nvcc.flags=-D_FORCE_INLINES python -c "from theano.sandbox.cuda.dnn import dnn_available as d; print(d() or d.msg)"
+model.summary()
+how to identify leaves from a given data set clustering and get cluster number
+(algorithm).
+backpropogation.
+gradient decent 
+fixed point chractericrization 
+vector differential 
+
+
